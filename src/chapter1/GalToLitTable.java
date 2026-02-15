@@ -12,7 +12,7 @@ public class GalToLitTable {
             System.out.println();
             counter ++;
             if (counter == 10) {
-                System.out.println("");
+                System.out.println();
                 counter = 0;
             }
         }
