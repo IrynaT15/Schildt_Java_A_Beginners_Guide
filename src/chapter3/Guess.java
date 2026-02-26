@@ -14,7 +14,12 @@ public class Guess {
         if (ch == answer) {
             System.out.println("Correct!");
         } else {
-            System.out.println("Sorry, that's not it.");
+            System.out.print("Sorry, that's not it. The letter is placed ");
+            if (ch < answer) {
+                System.out.println("closer to the end of the ABC");
+            } else {
+                System.out.println("closer to the beginning of the ABC");
+            }
         }
     }
 }
